@@ -1,5 +1,5 @@
 jdk:
-  - openjdk17   # JitPack build এর জন্য Java 17 ব্যবহার করা হবে
+  - openjdk17 
 
 android:
   compileSdk: 36          
