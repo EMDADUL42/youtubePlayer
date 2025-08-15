@@ -1,0 +1,9 @@
+jdk:
+  - openjdk17   # JitPack build এর জন্য Java 17 ব্যবহার করা হবে
+
+android:
+  compileSdk: 36          # Compile SDK version
+  targetSdk: 36           # Target SDK version
+  buildTools: "36.0.0"    # Build tools version
+  ndk: "29.0.13599879"     # NDK version যদি project use করে
+  licenses: true           # Auto-accept licenses (important)
