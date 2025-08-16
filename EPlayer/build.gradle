@@ -12,10 +12,11 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
 
+        /*
         ndk{
 
             ndkVersion = "29.0.13599879"
-        }
+        }*/
 
 
         externalNativeBuild {
