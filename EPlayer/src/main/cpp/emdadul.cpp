@@ -1,4 +1,3 @@
-
 #include <jni.h>
 #include <string>
 
@@ -25,15 +24,6 @@ std::string decryptString(const std::string &encrypted) {
     return decrypted;
 }
 
-
-
-
-
-
-
-
-
-
 extern "C" JNIEXPORT jstring JNICALL
 Java_com_emdadul_EPlayer_initialize(JNIEnv *env, jobject thiz) {
     // Decrypt the string
@@ -49,7 +39,7 @@ Java_com_emdadul_EPlayer_getAllVideoIds(JNIEnv *env, jobject thiz) {
 }
 extern "C" JNIEXPORT jstring JNICALL
 Java_com_emdadul_EPlayer_loadAllVideos(JNIEnv *env, jobject thiz, jstring video_id,
-                                        jint position) {
+                                       jint position) {
     const char *videoIdStr = env->GetStringUTFChars(video_id, nullptr);
 
     // Create the desired C++ string

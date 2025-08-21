@@ -1,5 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
+    //alias(libs.plugins.android.library)
+
 }
 
 android {
@@ -7,7 +9,7 @@ android {
     compileSdk 36
 
     defaultConfig {
-        applicationId "com.emdadul.includeplayer"
+       applicationId "com.emdadul.includeplayer"
         minSdk 24
         targetSdk 36
         versionCode 1
