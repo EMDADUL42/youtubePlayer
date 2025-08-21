@@ -1,0 +1,7 @@
+jdk: 17
+os: linux
+steps:
+  - name: Install dependencies
+    run: |
+      echo "y" | sdkmanager --licenses
+      # Additional AI library installations    
